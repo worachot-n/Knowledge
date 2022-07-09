@@ -1,0 +1,12 @@
+version: 1
+imports: []
+schemas:
+  - id: paper
+    title: paper
+    parent: root
+    children:
+      - pattern: '*'
+        children: 
+        - pattern: advantage
+        - pattern: disadvantage
+
